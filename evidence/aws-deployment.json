@@ -1,0 +1,7 @@
+{
+  "region": "eu-north-1",
+  "api_base": "[redacted-public-api-base]",
+  "healthz_verified": true,
+  "roundtrip_verified": true,
+  "verified_at": 1791020395.7163267
+}

@@ -1,0 +1,35 @@
+{
+  "milestone": 9,
+  "generated_at": 1791023596.596861,
+  "scope": "controlled visual failure lab; not production accuracy",
+  "opencv_version": "5.0.0",
+  "classification": {
+    "cases": 4,
+    "accuracy": 1.0,
+    "healthy_false_positive_rate": 0.0
+  },
+  "closed_loop": {
+    "stall_then_recover": {
+      "duration_s": 14.0,
+      "confirmed_failure_at_s": 8.0,
+      "recovered_at_s": 8.5,
+      "recovery_latency_s": 0.5,
+      "final_state": "HEALTHY"
+    },
+    "black_then_recover": {
+      "duration_s": 14.0,
+      "confirmed_failure_at_s": 3.0,
+      "recovered_at_s": 6.5,
+      "recovery_latency_s": 3.5,
+      "final_state": "HEALTHY"
+    },
+    "stall_never_recovers": {
+      "duration_s": 14.0,
+      "confirmed_failure_at_s": 8.0,
+      "recovered_at_s": null,
+      "recovery_latency_s": null,
+      "final_state": "HUMAN_REVIEW"
+    }
+  },
+  "claims_limit": "Metrics apply only to deterministic synthetic fixtures in this evaluation harness. Real-stream validation is a separate next phase."
+}

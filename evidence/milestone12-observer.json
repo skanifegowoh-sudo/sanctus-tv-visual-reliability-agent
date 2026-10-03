@@ -1,0 +1,29 @@
+{
+  "mode": "CONTINUOUS_OBSERVER_VALIDATION",
+  "rounds": [
+    {
+      "round": 1,
+      "elapsed_s": 70.58,
+      "summary": {
+        "HEALTHY_SAMPLE": 7,
+        "ATTENTION": 0,
+        "INCONCLUSIVE": 5
+      },
+      "aws_201": 12,
+      "events": 12
+    },
+    {
+      "round": 2,
+      "elapsed_s": 59.7,
+      "summary": {
+        "HEALTHY_SAMPLE": 10,
+        "ATTENTION": 0,
+        "INCONCLUSIVE": 2
+      },
+      "aws_201": 12,
+      "events": 12
+    }
+  ],
+  "production_actions": 0,
+  "note": "Competition validation cadence only; destructive and source-changing actions remain disabled."
+}

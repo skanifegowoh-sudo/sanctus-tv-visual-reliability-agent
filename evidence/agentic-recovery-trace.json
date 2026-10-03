@@ -1,0 +1,66 @@
+[
+  {
+    "trace_id": "822e69a2-aaed-48dc-8923-3c0e3bb846a2",
+    "timestamp": 1791031116.7724354,
+    "channel_id": "demo-channel",
+    "perception": {
+      "probe_state": "NO_FRAMES",
+      "conditions": {}
+    },
+    "decision": {
+      "previous_state": "HEALTHY",
+      "channel_id": "demo-channel",
+      "state": "SUSPECTED_DEGRADATION",
+      "suspicion_count": 1,
+      "retry_count": 0,
+      "max_retries": 2,
+      "last_action": "COLLECT_MORE_EVIDENCE"
+    },
+    "action": "COLLECT_MORE_EVIDENCE",
+    "human_approval_required": false
+  },
+  {
+    "trace_id": "6ba2a3b6-351c-4e19-9050-db36a57c1dc9",
+    "timestamp": 1791031116.7724514,
+    "channel_id": "demo-channel",
+    "perception": {
+      "probe_state": "NO_FRAMES",
+      "conditions": {}
+    },
+    "decision": {
+      "previous_state": "SUSPECTED_DEGRADATION",
+      "channel_id": "demo-channel",
+      "state": "CONFIRMED_FAILURE",
+      "suspicion_count": 2,
+      "retry_count": 1,
+      "max_retries": 2,
+      "last_action": "SAFE_RETEST"
+    },
+    "action": "SAFE_RETEST",
+    "human_approval_required": true
+  },
+  {
+    "trace_id": "3e129b77-e78a-4869-9d7a-04ac9a838144",
+    "timestamp": 1791031116.7724628,
+    "channel_id": "demo-channel",
+    "perception": {
+      "probe_state": "VISUAL_EVIDENCE_AVAILABLE",
+      "conditions": {
+        "healthy": 20
+      }
+    },
+    "decision": {
+      "previous_state": "CONFIRMED_FAILURE",
+      "channel_id": "demo-channel",
+      "state": "HEALTHY",
+      "suspicion_count": 0,
+      "retry_count": 0,
+      "max_retries": 2,
+      "last_action": "NONE"
+    },
+    "action": "NONE",
+    "human_approval_required": false,
+    "verification_of": "CONFIRMED_FAILURE",
+    "outcome": "RECOVERED"
+  }
+]

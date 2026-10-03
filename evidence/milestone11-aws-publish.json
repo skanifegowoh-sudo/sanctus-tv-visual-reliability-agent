@@ -1,0 +1,62 @@
+[
+  {
+    "channel_id": "babyshark-tv",
+    "status": 201,
+    "trace_id": "real-8de6c722-e918-4517-a55f-462a588d276f"
+  },
+  {
+    "channel_id": "trace-gospel",
+    "status": 201,
+    "trace_id": "real-d9f6d542-f7b5-4d6f-a4af-48197d5628cd"
+  },
+  {
+    "channel_id": "ewtn-africa-asia-live",
+    "status": 201,
+    "trace_id": "real-f5a29da4-9282-4f71-ae14-1d6e8d9ad621"
+  },
+  {
+    "channel_id": "dw-espanol",
+    "status": 201,
+    "trace_id": "real-aaad5f43-dcb8-48c9-91d0-4f544c6e5cce"
+  },
+  {
+    "channel_id": "fifa-plus",
+    "status": 201,
+    "trace_id": "real-35c9a949-4f61-40ec-a130-f7b1f4ccc361"
+  },
+  {
+    "channel_id": "fuel-tv",
+    "status": 201,
+    "trace_id": "real-c2a5ed40-ec76-41e6-8326-c5ddcb87d4a1"
+  },
+  {
+    "channel_id": "sparkle-movies",
+    "status": 201,
+    "trace_id": "real-4565b6d7-d123-4bae-bd33-e3a8937f1de7"
+  },
+  {
+    "channel_id": "action-hollywood-movies",
+    "status": 201,
+    "trace_id": "real-de9e62cd-6bd3-4365-988e-61b206126824"
+  },
+  {
+    "channel_id": "the-pet-collective",
+    "status": 201,
+    "trace_id": "real-e9283806-c45d-4519-a3c1-e9faea98cfe8"
+  },
+  {
+    "channel_id": "afrobeats-uk",
+    "status": 201,
+    "trace_id": "real-c8ab4813-b137-4bdb-909a-584a29ca6cbf"
+  },
+  {
+    "channel_id": "tvc-entertainment",
+    "status": 201,
+    "trace_id": "real-33e071b2-927b-4b07-ae86-bf3649f360ff"
+  },
+  {
+    "channel_id": "afroland-family",
+    "status": 201,
+    "trace_id": "real-8d31d06a-4e95-49e8-a429-3112e589d267"
+  }
+]

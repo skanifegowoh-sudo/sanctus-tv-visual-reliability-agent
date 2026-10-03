@@ -1,0 +1,35 @@
+Live stream
+    |
+    v
+OpenCV 5 visual perception
+(VideoCapture + luminance + absdiff + temporal evidence)
+    |
+    v
+Evidence classification
+Healthy / Attention / Frozen / Black / Inconclusive
+    |
+    v
+Bounded state machine
+Healthy -> Suspected -> Confirmed failure
+    |                         |
+    |                         v
+    |                    Safe retest
+    |                         |
+    |                         v
+    |                 OpenCV verification
+    |                    /          \
+    |               recovered     still failed
+    |                  |              |
+    v                  v              v
+AWS audit history <------------ Human review
+    |
+    v
+Sanctus Broadcast Health dashboard
+    |
+    v
+Operator: Confirm / Override / Reject
+
+Safety boundary:
+Real broadcast campaign = OBSERVE_ONLY.
+No DRM/auth/geographic bypass.
+No automatic deletion or permanent source replacement.

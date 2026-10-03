@@ -1,0 +1,170 @@
+{
+  "mode": "PASSIVE_BOUNDED_CONCURRENT",
+  "max_workers": 3,
+  "per_channel_deadline_s": 18,
+  "production_actions": 0,
+  "elapsed_s": 60.28,
+  "channels": [
+    {
+      "channel_id": "babyshark-tv",
+      "name": "Baby Shark TV",
+      "group": "Kids",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 718,
+      "samples": 71,
+      "conditions": {
+        "healthy": 71
+      },
+      "elapsed_s": 15.25
+    },
+    {
+      "channel_id": "trace-gospel",
+      "name": "TRACE Gospel",
+      "group": "Music",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 349,
+      "samples": 34,
+      "conditions": {
+        "healthy": 34
+      },
+      "elapsed_s": 12.66
+    },
+    {
+      "channel_id": "ewtn-africa-asia-live",
+      "name": "EWTN Africa - Asia",
+      "group": "Catholic",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 597,
+      "samples": 59,
+      "conditions": {
+        "healthy": 59
+      },
+      "elapsed_s": 14.34
+    },
+    {
+      "channel_id": "dw-espanol",
+      "name": "DW Espa\u00f1ol",
+      "group": "World News",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 397,
+      "samples": 39,
+      "conditions": {
+        "healthy": 39
+      },
+      "elapsed_s": 16.04
+    },
+    {
+      "channel_id": "fifa-plus",
+      "name": "FIFA+",
+      "group": "Sports",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 716,
+      "samples": 71,
+      "conditions": {
+        "healthy": 71
+      },
+      "elapsed_s": 13.57
+    },
+    {
+      "channel_id": "fuel-tv",
+      "name": "FUEL TV",
+      "group": "Sports",
+      "assessment": "INCONCLUSIVE",
+      "frames_read": 0,
+      "samples": 0,
+      "conditions": {},
+      "elapsed_s": 11.09
+    },
+    {
+      "channel_id": "sparkle-movies",
+      "name": "Sparkle Movies",
+      "group": "Movies",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 718,
+      "samples": 71,
+      "conditions": {
+        "healthy": 71
+      },
+      "elapsed_s": 15.91
+    },
+    {
+      "channel_id": "action-hollywood-movies",
+      "name": "Action Hollywood Movies",
+      "group": "Movies & Series",
+      "assessment": "INCONCLUSIVE",
+      "frames_read": 0,
+      "samples": 0,
+      "conditions": {},
+      "elapsed_s": 14.66
+    },
+    {
+      "channel_id": "the-pet-collective",
+      "name": "The Pet Collective International",
+      "group": "Children & Family",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 654,
+      "samples": 65,
+      "conditions": {
+        "healthy": 65
+      },
+      "elapsed_s": 12.75
+    },
+    {
+      "channel_id": "afrobeats-uk",
+      "name": "Afrobeats",
+      "group": "Music",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 597,
+      "samples": 59,
+      "conditions": {
+        "healthy": 59
+      },
+      "elapsed_s": 14.14
+    },
+    {
+      "channel_id": "tvc-entertainment",
+      "name": "TVC Entertainment",
+      "group": "Entertainment",
+      "assessment": "INCONCLUSIVE",
+      "frames_read": 0,
+      "samples": 0,
+      "conditions": {},
+      "elapsed_s": 18.02
+    },
+    {
+      "channel_id": "afroland-family",
+      "name": "AfroLand Family",
+      "group": "Family",
+      "assessment": "HEALTHY_SAMPLE",
+      "frames_read": 568,
+      "samples": 56,
+      "conditions": {
+        "healthy": 56
+      },
+      "elapsed_s": 14.43
+    }
+  ],
+  "summary": {
+    "HEALTHY_SAMPLE": 9,
+    "ATTENTION": 0,
+    "INCONCLUSIVE": 3
+  },
+  "aggregate": {
+    "frames_read": 5314,
+    "opencv_samples": 525,
+    "diverse_groups": [
+      "Catholic",
+      "Children & Family",
+      "Entertainment",
+      "Family",
+      "Kids",
+      "Movies",
+      "Movies & Series",
+      "Music",
+      "Sports",
+      "World News"
+    ],
+    "healthy_sample_rate_among_decodable": 1.0
+  },
+  "claims_limit": "A healthy sample means no visual failure was detected during this bounded observation window; it is not a guarantee of continuous channel health."
+}
