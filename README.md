@@ -88,3 +88,13 @@ Broadcast content is difficult: a priest at an altar may barely move, a film may
 
 ## Submission
 See docs/submission-checklist.md for the final human submission steps.
+
+
+## Maintainer and portfolio
+
+Developed by **Paul Nativity** as part of **Sanctus Technology**.
+
+The wider [Sanctus TV streaming platform](https://sanctus-tv.pages.dev/) existed before this visual-reliability project. This repository documents the OpenCV/AWS subsystem, including reproducible tests and bounded evaluation evidence.
+
+- [Sanctus Technology website](https://sanctustechnology.com.ng)
+- [Developer GitHub portfolio](https://github.com/skanifegowoh-sudo)
